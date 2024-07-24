@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-00db8dadb36c9815e"
+    ami = "ami-03972092c42e8c0ca"
     instance_type = "t2.nano"
     tags = {
       Name = "dev-ec2"
